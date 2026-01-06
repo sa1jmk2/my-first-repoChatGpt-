@@ -21,3 +21,55 @@ youtube Smart programing
 Admin@miracast MINGW64 ~
 $ git --version                                             by it we can chec it instaled oor not wit it verion 
 git version 2.47.0.windows.1
+
+
+
+Git commnds 
+
+Convert Working director to git repoitory
+
+
+in any folder u want us .git in our file/folder then rigt clic in inide that folder then OPEN GIT BASH HERE   
+it only happen wen it has folder called .git
+
+11111111111111
+Admin@miracast MINGW64 ~                     to ceck .git is confired or not 
+$ git config --global --list
+
+
+222222222222222222
+Admin@miracast MINGW64 ~/Desktop/GitDemo (master)
+$  git add aaa.txt                                for file staging
+
+
+if u ve to dd mnn fil ue *
+git add *                                  to dd multiple file
+Admin@miracast MINGW64 ~/Desktop/GitDemo (master)
+$ git add *                                   by this all will be in staged area
+
+git . is better than *
+
+Admin@miracast MINGW64 ~/Desktop/GitDemo (master)
+$ git add .
+
+
+
+3333333333333333
+Admin@miracast MINGW64 ~/Desktop/GitDemo (master)
+$ git status                                         to know about untracked,trcked,tged ,tged files 
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   aaa.txt
+
+
+
+Msster Brannch
+Feature Branch
+
+user.name=sa1jmk2
+user.email=sangameshm277@gmail.com
+
